@@ -64,7 +64,6 @@ body {
     margin: 20px auto;
     background-color: #fff;
     padding: 20px;
-    text-align: center;
     border-top: solid 5px #3ffe21;
     border-left: solid 5px #3ffe21;
     border-right: solid 5px #0f9900;
@@ -136,9 +135,22 @@ body {
     text-align: center;
 }
 
-.games{
-    color: white;
-    text-decoration: none;
+strong{
+    font-family: Retro;
+}
+
+.retro-scroll-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #990000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: little-retro;
 }
 
 @media screen and (max-width : 768px){

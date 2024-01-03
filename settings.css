@@ -95,7 +95,6 @@ body {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    transition: 1.3s ease background-color;
 }
 
 .retro-button:hover {
